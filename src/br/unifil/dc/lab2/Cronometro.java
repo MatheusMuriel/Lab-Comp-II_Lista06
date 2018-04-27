@@ -3,8 +3,8 @@ package br.unifil.dc.lab2;
 /**
  * Write a description of class Cronometro here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Matheus Muriel
+ * @version 27-04-18
  */
 public class Cronometro
 {
@@ -12,7 +12,7 @@ public class Cronometro
      * Construtor padrão da classe.
      */
     public Cronometro() {
-        throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
+        //throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
     }
     
     /**
@@ -20,16 +20,22 @@ public class Cronometro
      * estiver correndo, não faz nada.
      */
     public void iniciar() {
-        throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
+        tempoInicial = System.currentTimeMillis();
     }
-    
+
     /**
      * Para a contagem de tempo e retorna uma leitura do tempo decorrido.
      * 
      * @return Tempo decorrido até o momento da parada.
      */
     public double parar() {
-        throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
+        if (tempoInicial != 0){
+            tempoFinal = System.currentTimeMillis();
+            tempoTotal = tempoFinal - tempoInicial;
+        }else{
+            throw new RuntimeException("Não foi possivel parar o cronometro pois ele não foi iniciado.");
+        }
+        return tempoTotal;
     }
     
     /**
@@ -40,6 +46,8 @@ public class Cronometro
      */
     public double lerTempoEmMilissegundos() {
         throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
+
+
     }
     
     /**
@@ -51,5 +59,8 @@ public class Cronometro
     }
     
     // Atributos da classe são declarados aqui
+    private long tempoInicial;
+    private long tempoFinal;
+    private double tempoTotal;
     
 }

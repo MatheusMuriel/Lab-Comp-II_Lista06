@@ -189,7 +189,7 @@ public class Ordenadores {
 
         // Subdivisão
         int iPivo = escolherPivo(vals, e, d);
-        iPivo = particionar(vals, e, d, iPivo);
+        iPivo = particionarLomuto(vals, e, d, iPivo);
         quicksort(vals, e, iPivo);
         quicksort(vals, iPivo+1, d);
     }
@@ -245,10 +245,10 @@ public class Ordenadores {
      * para o mesmo elemento pivo original.
      */
     public static int particionarLomuto(
-            List<Integer> vals, int e, int d, int indicePivo) {
+            List<Integer> vals, int e, int d, int iPivo) {
 
-        final Integer pivo = vals.get(indicePivo);
-        trocar(vals, d-1, indicePivo);
+        final Integer pivo = vals.get(iPivo);
+        trocar(vals, d-1, iPivo);
 
         int divisor = e - 1;
         for (int i = e; i < d-1; i++) {
@@ -266,8 +266,8 @@ public class Ordenadores {
 
         // Escolha seu método, comentando uma das linhas
         // e descomentando a outra.
-        return particionarHoare(vals, e, d, indicePivo);
-        //return particionarLomuto(vals, e, d, indicePivo);
+        //return particionarHoare(vals, e, d, indicePivo);
+        return particionarLomuto(vals, e, d, indicePivo);
     }
 
     private static int escolherPivo(
