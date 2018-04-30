@@ -240,7 +240,7 @@ public class Ordenadores {
      *             sublista indicada pelos marcadores 'e' e 'd'.
      * @param e Índice do ínicio da sublista em vals.
      * @param d Índice do fim, fechado, da sublista em vals.
-     * @param indicePivo Índice do elemento pré-escolhido como pivô.
+     //* @param indicePivo Índice do elemento pré-escolhido como pivô.
      * @return Índice da nova posição de pivo, que permanece apontando
      * para o mesmo elemento pivo original.
      */

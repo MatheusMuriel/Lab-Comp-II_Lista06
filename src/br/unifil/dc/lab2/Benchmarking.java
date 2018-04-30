@@ -18,32 +18,21 @@ class Medicao {
 
 public class Benchmarking {
 
-    /**
-     *  Metodo que calcula Benchmark
-     * @param inicio Numero de inicio da lista a ser ordenada
-     * @param limite Numero de limite da lista a ser ordenada
-     * @param passo  Numero de intervalos da lista a ser ordenada
-     * @param metodo
-     * @return
-     */
     public static List<Medicao> benchmarkIntervalo(
-            int inicio,
+            int inicial,
             int limite,
             int passo,
-            Consumer< List<Integer> > metodo) {
+            Consumer<List<Integer>> metodo) {
 
-        //Inicia uma lista de tempos
         ArrayList<Medicao> tempos = new ArrayList<>();
-
-        for (; inicio < limite; inicio+=passo) {
-            List<Integer> listaA = IntStream.range(inicio,limite) //revRange = Decrescente, IntStream.range = Crescente
+        for (; inicial < limite; inicial+=passo) {
+            List<Integer> listaA = revRange(0,inicial) //IntStream.range(0,inicial)
                     .boxed()
                     .collect(Collectors.toList());
-            //System.out.println(listaA);
 
             tempos.add(
                     new Medicao(
-                            inicio,
+                            inicial,
                             benchmarkLista(listaA,10, metodo)
                     )
             );
@@ -56,15 +45,16 @@ public class Benchmarking {
             List<Integer> listaOriginal,
             int nRuns,
             Consumer<List<Integer>> metodo) {
-        Cronometro cronometro = new Cronometro();
 
         ArrayList<Long> temposTomados = new ArrayList<>(nRuns);
         for (int i = 0; i < nRuns; i++) {
             // Inicialização
             List<Integer> listaCopiada
                     = new ArrayList<>(listaOriginal);
+            Cronometro cronometro = new Cronometro();
 
-            // Inicia o Cronometro
+            // Anotar tempo atual
+            //final long tempoAnterior = System.currentTimeMillis();
             cronometro.iniciar();
 
             // Realizar tarefa
@@ -73,7 +63,8 @@ public class Benchmarking {
             // Anotar tempo pós-tarefa
             //final long tempoPosterior = System.currentTimeMillis();
             cronometro.parar();
-            temposTomados.add( (long) cronometro.parar() );
+            temposTomados.add(cronometro.lerTempoEmMilissegundos());
+            
         }
 
         //System.out.println(temposTomados);

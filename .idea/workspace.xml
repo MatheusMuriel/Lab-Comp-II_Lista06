@@ -22,8 +22,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -32,14 +32,13 @@
       <file leaf-file-name="Benchmarking.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="38" column="119" lean-forward="false" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
+            <state relative-caret-position="27">
+              <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
                 <element signature="method#benchmarkLista#0;class#Benchmarking#0" expanded="false" />
-                <element signature="e#2100#2126#0" expanded="false" />
-                <element signature="method#calcularMedia#0;class#Benchmarking#0" expanded="false" />
+                <element signature="e#2168#2194#0" expanded="false" />
                 <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
               </folding>
             </state>
@@ -49,27 +48,26 @@
       <file leaf-file-name="Ordenadores.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+            <state relative-caret-position="-823">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
-                <element signature="class#AnotacoesOperacoes#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
-                <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
-                <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="e#1483#1487#0" expanded="false" />
                 <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
-                <element signature="method#insertionsort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#mergesort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#mergesort#1;class#Ordenadores#0" expanded="false" />
                 <element signature="e#3443#3474#0" expanded="false" />
                 <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+                <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+                <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
+                <element signature="e#8128#8176#0" expanded="false" />
                 <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
               </folding>
@@ -80,11 +78,9 @@
       <file leaf-file-name="Cronometro.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="379">
+              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
               <folding>
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
                 <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
               </folding>
             </state>
@@ -94,7 +90,7 @@
       <file leaf-file-name="TabelaTempos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="884">
               <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -128,10 +124,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java" />
-        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java" />
         <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java" />
         <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java" />
+        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java" />
+        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java" />
       </list>
     </option>
   </component>
@@ -141,7 +137,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1241" />
     <option name="height" value="777" />
@@ -193,8 +189,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
@@ -202,7 +198,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/jfreechart-1.0.19/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -283,37 +279,37 @@
     <option name="totallyTimeSpent" value="9728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18214285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16325037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,11 +320,81 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="119" lean-forward="false" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
+            <element signature="method#benchmarkLista#0;class#Benchmarking#0" expanded="false" />
+            <element signature="e#2168#2194#0" expanded="false" />
+            <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4216">
+          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#1483#1487#0" expanded="false" />
+            <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#mergesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#mergesort#1;class#Ordenadores#0" expanded="false" />
+            <element signature="e#3443#3474#0" expanded="false" />
+            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#8128#8176#0" expanded="false" />
+            <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -342,8 +408,6 @@
         <state relative-caret-position="187">
           <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
             <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
           </folding>
         </state>
@@ -354,24 +418,23 @@
         <state relative-caret-position="391">
           <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
-            <element signature="class#AnotacoesOperacoes#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="e#1483#1487#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#mergesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#mergesort#1;class#Ordenadores#0" expanded="false" />
             <element signature="e#3443#3474#0" expanded="false" />
             <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#8128#8176#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
           </folding>
@@ -386,8 +449,7 @@
             <element signature="imports" expanded="true" />
             <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
             <element signature="method#benchmarkLista#0;class#Benchmarking#0" expanded="false" />
-            <element signature="e#2100#2126#0" expanded="false" />
-            <element signature="method#calcularMedia#0;class#Benchmarking#0" expanded="false" />
+            <element signature="e#2168#2194#0" expanded="false" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -404,21 +466,9 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="884">
           <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -426,29 +476,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding>
+            <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+        <state relative-caret-position="-823">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
-            <element signature="class#AnotacoesOperacoes#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="e#1483#1487#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#mergesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#mergesort#1;class#Ordenadores#0" expanded="false" />
             <element signature="e#3443#3474#0" expanded="false" />
             <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#8128#8176#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
           </folding>
@@ -457,14 +516,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="38" column="119" lean-forward="false" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
+        <state relative-caret-position="27">
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
             <element signature="method#benchmarkLista#0;class#Benchmarking#0" expanded="false" />
-            <element signature="e#2100#2126#0" expanded="false" />
-            <element signature="method#calcularMedia#0;class#Benchmarking#0" expanded="false" />
+            <element signature="e#2168#2194#0" expanded="false" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -472,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="1037">
+          <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
           <folding />
         </state>
       </provider>

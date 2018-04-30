@@ -3,8 +3,8 @@ package br.unifil.dc.lab2;
 /**
  * Write a description of class Cronometro here.
  * 
- * @author Matheus Muriel
- * @version 27-04-18
+ * @author (your name) 
+ * @version (a version number or a date)
  */
 public class Cronometro
 {
@@ -12,6 +12,9 @@ public class Cronometro
      * Construtor padrão da classe.
      */
     public Cronometro() {
+
+        zerar();
+
         //throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
     }
     
@@ -20,22 +23,25 @@ public class Cronometro
      * estiver correndo, não faz nada.
      */
     public void iniciar() {
-        tempoInicial = System.currentTimeMillis();
-    }
 
+        // Anotar tempo atual
+        tempoAnterior = System.currentTimeMillis();
+
+        //throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
+    }
+    
     /**
      * Para a contagem de tempo e retorna uma leitura do tempo decorrido.
      * 
      * @return Tempo decorrido até o momento da parada.
      */
     public double parar() {
-        if (tempoInicial != 0){
-            tempoFinal = System.currentTimeMillis();
-            tempoTotal = tempoFinal - tempoInicial;
-        }else{
-            throw new RuntimeException("Não foi possivel parar o cronometro pois ele não foi iniciado.");
-        }
-        return tempoTotal;
+
+        // Anotar tempo pós-tarefa
+        tempoPosterior = System.currentTimeMillis();
+        return tempoPosterior - tempoAnterior;
+
+        //throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
     }
     
     /**
@@ -44,10 +50,13 @@ public class Cronometro
      * 
      * return Tempo decorrido contado pelo cronômetro.
      */
-    public double lerTempoEmMilissegundos() {
-        throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
+    //retorna um double
+    public long lerTempoEmMilissegundos() {
+
+        return tempoPosterior - tempoAnterior;
 
 
+        //throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
     }
     
     /**
@@ -55,12 +64,15 @@ public class Cronometro
      * parado.
      */
     public void zerar() {
-        throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
+
+        tempoPosterior = 0;
+        tempoAnterior = 0;
+
+        //throw new RuntimeException("O aluno ainda não implementou essa funcionalidade.");
     }
     
     // Atributos da classe são declarados aqui
-    private long tempoInicial;
-    private long tempoFinal;
-    private double tempoTotal;
+    private long tempoAnterior;
+    private long tempoPosterior;
     
 }
