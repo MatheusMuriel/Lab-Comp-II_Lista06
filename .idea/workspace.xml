@@ -22,8 +22,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+            <state relative-caret-position="294">
+              <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -32,11 +32,12 @@
       <file leaf-file-name="Benchmarking.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-387">
-              <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="345">
+              <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
                 <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
               </folding>
             </state>
@@ -46,37 +47,30 @@
       <file leaf-file-name="Ordenadores.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="214" column="7" lean-forward="true" selection-start-line="214" selection-start-column="7" selection-end-line="214" selection-end-column="7" />
+            <state relative-caret-position="321">
+              <caret line="126" column="10" lean-forward="false" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+                <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+                <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+                <element signature="e#1647#1651#0" expanded="false" />
                 <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-                <element signature="e#3483#3514#0" expanded="false" />
-                <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+                <element signature="method#mergesortRec#0;class#Ordenadores#0" expanded="false" />
+                <element signature="e#4178#4209#0" expanded="false" />
                 <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
-                <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
-                <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+                <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
+                <element signature="e#6285#7074#0" expanded="false" />
                 <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
-                <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-                <element signature="e#8208#8256#0" expanded="false" />
+                <element signature="docComment;method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
+                <marker date="1525217341707" expanded="false" signature="7185:7564" ph="{...}" />
+                <marker date="1525217341707" expanded="false" signature="9166:9309" ph="//..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cronometro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" column="14" lean-forward="false" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -84,10 +78,23 @@
       <file leaf-file-name="TabelaTempos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
+            <state relative-caret-position="510">
+              <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;method#setLegendas#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;method#setTitulo#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;method#setEtiquetaX#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;method#setEtiquetaY#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;method#anotarAmostra#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="method#maxNumColunas#0;class#TabelaTempos#0" expanded="false" />
+                <element signature="docComment;field#titulo#0;class#TabelaTempos#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -105,6 +112,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>System.currentTimeMillis</find>
+      <find>system.out</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,8 +127,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java" />
-        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java" />
+        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaOperacoes.java" />
         <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java" />
+        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java" />
         <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java" />
       </list>
     </option>
@@ -154,9 +163,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,6 +194,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -272,20 +281,30 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="9728000" />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16325037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16592261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -301,7 +320,6 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -314,7 +332,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -329,11 +347,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="214" column="7" lean-forward="true" selection-start-line="214" selection-start-column="7" selection-end-line="214" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#1647#1651#0" expanded="false" />
+            <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#mergesortRec#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#4178#4209#0" expanded="false" />
+            <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
+            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#6285#7074#0" expanded="false" />
+            <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
+            <marker date="1525217341707" expanded="false" signature="7185:7564" ph="{...}" />
+            <marker date="1525217341707" expanded="false" signature="9166:9309" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
+          <folding>
+            <element signature="docComment;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setLegendas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setTitulo#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaX#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#anotarAmostra#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#maxNumColunas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;field#titulo#0;class#TabelaTempos#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="14" lean-forward="false" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -344,23 +444,26 @@
         <state relative-caret-position="102">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#1647#1651#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#3483#3514#0" expanded="false" />
-            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#mergesortRec#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#4178#4209#0" expanded="false" />
             <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
-            <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#6285#7074#0" expanded="false" />
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#8208#8256#0" expanded="false" />
+            <element signature="docComment;method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
+            <marker date="1525217341707" expanded="false" signature="7185:7564" ph="{...}" />
+            <marker date="1525217341707" expanded="false" signature="9166:9309" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -378,7 +481,20 @@
         <state relative-caret-position="884">
           <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setLegendas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setTitulo#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaX#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#anotarAmostra#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#maxNumColunas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;field#titulo#0;class#TabelaTempos#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -397,7 +513,8 @@
           <caret line="38" column="119" lean-forward="false" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -408,23 +525,26 @@
         <state relative-caret-position="4216">
           <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#1647#1651#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#3483#3514#0" expanded="false" />
-            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#mergesortRec#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#4178#4209#0" expanded="false" />
             <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
-            <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#6285#7074#0" expanded="false" />
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#8208#8256#0" expanded="false" />
+            <element signature="docComment;method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
+            <marker date="1525217341707" expanded="false" signature="7185:7564" ph="{...}" />
+            <marker date="1525217341707" expanded="false" signature="9166:9309" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -442,7 +562,20 @@
         <state relative-caret-position="884">
           <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setLegendas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setTitulo#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaX#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#anotarAmostra#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#maxNumColunas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;field#titulo#0;class#TabelaTempos#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,23 +601,26 @@
         <state relative-caret-position="391">
           <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#1647#1651#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#3483#3514#0" expanded="false" />
-            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#mergesortRec#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#4178#4209#0" expanded="false" />
             <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
-            <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#6285#7074#0" expanded="false" />
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#8208#8256#0" expanded="false" />
+            <element signature="docComment;method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
+            <marker date="1525217341707" expanded="false" signature="7185:7564" ph="{...}" />
+            <marker date="1525217341707" expanded="false" signature="9166:9309" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -495,7 +631,8 @@
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -506,63 +643,112 @@
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setLegendas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setTitulo#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaX#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#anotarAmostra#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#maxNumColunas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;field#titulo#0;class#TabelaTempos#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaOperacoes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
+        <state relative-caret-position="425">
+          <caret line="70" column="18" lean-forward="true" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="848" column="20" lean-forward="false" selection-start-line="848" selection-start-column="20" selection-end-line="848" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#32532#32533#0" expanded="false" />
+            <element signature="e#32566#32567#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
+        <state relative-caret-position="498">
           <caret line="73" column="14" lean-forward="false" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+          <folding>
+            <element signature="docComment;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#TabelaTempos#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setLegendas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setTitulo#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaX#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#setEtiquetaY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#anotarAmostra#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#exibirGraficoXY#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#gerarCSV#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="method#maxNumColunas#0;class#TabelaTempos#0" expanded="false" />
+            <element signature="docComment;field#titulo#0;class#TabelaTempos#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="214" column="7" lean-forward="true" selection-start-line="214" selection-start-column="7" selection-end-line="214" selection-end-column="7" />
+        <state relative-caret-position="321">
+          <caret line="126" column="10" lean-forward="false" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#1647#1651#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#3483#3514#0" expanded="false" />
-            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#mergesortRec#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#4178#4209#0" expanded="false" />
             <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
-            <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#6285#7074#0" expanded="false" />
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#8208#8256#0" expanded="false" />
+            <element signature="docComment;method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
+            <marker date="1525217341707" expanded="false" signature="7185:7564" ph="{...}" />
+            <marker date="1525217341707" expanded="false" signature="9166:9309" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="345">
+          <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -570,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        <state relative-caret-position="294">
+          <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding />
         </state>
       </provider>

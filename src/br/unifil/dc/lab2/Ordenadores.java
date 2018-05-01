@@ -8,6 +8,11 @@ public class Ordenadores {
     public static class AnotacoesOperacoes {
         public int comparacoes = 0;
         public int atribuicoes = 0;
+
+        public int getOperacoes(){
+            //System.out.println(this.atribuicoes + this.comparacoes);
+            return this.atribuicoes + this.comparacoes;
+        }
     }
 
     /**
@@ -15,7 +20,7 @@ public class Ordenadores {
      *
      * @param vals lista de inteiros, não nula.
      */
-    public static AnotacoesOperacoes bubblesort(List<Integer> vals) {
+    public static int bubblesort(List<Integer> vals) {
         assert vals != null : "Lista não pode ser nula.";
         //System.out.println(vals.toString());
         AnotacoesOperacoes ao = new AnotacoesOperacoes();
@@ -28,15 +33,15 @@ public class Ordenadores {
 
                 ao.comparacoes++;
                 if (vals.get(i) > vals.get(i+1)) {
-                    ao.atribuicoes += 2;
-                    trocar(vals, i, i+1);
+                    //ao.atribuicoes += 2;
+                    trocar(vals, i, i+1, ao);
                     houveTroca = true;
                 }
             }
             //System.out.println(vals.toString());
         } while(houveTroca);
 
-        return ao;
+        return ao.getOperacoes();
     }
 
     /**
@@ -44,7 +49,7 @@ public class Ordenadores {
      *
      * @param vals lista de inteiros, não nula.
      */
-    public static AnotacoesOperacoes selectionsort(List<Integer> vals) {
+    public static int selectionsort(List<Integer> vals) {
         assert vals != null : "Lista não pode ser nula."; // 1
         AnotacoesOperacoes ao = new AnotacoesOperacoes(); // 1
 
@@ -58,11 +63,11 @@ public class Ordenadores {
                 }
             }
 
-            ao.atribuicoes += 2; // (n-1) * 1
-            trocar(vals, i, menor); // (n-1) * 1 * 3
+            //ao.atribuicoes += 2; // (n-1) * 1
+            trocar(vals, i, menor, ao); // (n-1) * 1 * 3
         }
 
-        return ao; // 1
+        return ao.getOperacoes(); // 1
     }
 
     /**
@@ -70,7 +75,7 @@ public class Ordenadores {
      *
      * @param vals lista de inteiros, não nula.
      */
-    public static AnotacoesOperacoes insertionsort(List<Integer> vals) {
+    public static int insertionsort(List<Integer> vals) {
         assert vals != null : "Lista não pode ser nula.";
         AnotacoesOperacoes ao = new AnotacoesOperacoes();
 
@@ -92,8 +97,8 @@ public class Ordenadores {
             ao.atribuicoes++;
             vals.set(posicaoTroca, elemAtual);
         }
-
-        return ao;
+        //System.out.println("Insertion " + ao.getOperacoes());
+        return ao.getOperacoes();
     }
 
     /**
@@ -101,15 +106,31 @@ public class Ordenadores {
      *
      * @param vals lista de inteiros, não nula.
      */
-    public static AnotacoesOperacoes mergesort(List<Integer> vals) {
+    public static int mergesort(List<Integer> vals) {
         assert vals != null : "Lista não pode ser nula.";
         AnotacoesOperacoes ao = new AnotacoesOperacoes();
 
         mergesortRec(vals, 0, vals.size(), ao);
 
-        System.out.println(vals);
-        return ao;
+        //System.out.println("Merge " + ao.getOperacoes());
+        return ao.getOperacoes();
     }
+
+    /**
+     * Ordena uma lista de inteiros usando o método da reunião.
+     *
+     * @param vals lista de inteiros, não nula.
+     */
+    public static int quicksort(List<Integer> vals) {
+        AnotacoesOperacoes ao = new AnotacoesOperacoes();
+        quicksort(vals, 0, vals.size(), ao);
+        //System.out.println("Quick " + ao.getOperacoes());
+        return ao.getOperacoes();
+    }
+
+
+
+    //Metodos recursivos
 
     private static void mergesortRec(
             List<Integer> vals, int e, int d,
@@ -128,11 +149,32 @@ public class Ordenadores {
         mergesortRec(vals, e, meio, ao);
         mergesortRec(vals, meio, d, ao);
         merge(vals, e, d, ao);
-        System.out.println(vals);
+        //System.out.println(vals);
     }
 
+    private static void quicksort(
+            List<Integer> vals, int e, int d, AnotacoesOperacoes ao) {
+
+        // Caso base
+        ao.comparacoes++;
+        if (d-e <= 1) {
+            return;
+        }
+
+        // Subdivisão
+        int iPivo = escolherPivo(vals, e, d);
+        //particiona e retorna um objeto contendo o iPivo e o ao
+        Object[] oParticionar = particionarLomuto(vals, e, d, iPivo, ao);
+        iPivo = (int) oParticionar[0];
+        ao = (AnotacoesOperacoes) oParticionar[1];
+        quicksort(vals, e, iPivo, ao);
+        quicksort(vals, iPivo+1, d, ao);
+    }
+
+
+
     private static void merge(List<Integer> vals, int e, int d,
-            AnotacoesOperacoes ao) {
+                              AnotacoesOperacoes ao) {
 
         final int meio = (e + d) / 2;
         int topoEsq = e, topoDir = meio;
@@ -173,30 +215,6 @@ public class Ordenadores {
     }
 
     /**
-     * Ordena uma lista de inteiros usando o método da reunião.
-     *
-     * @param vals lista de inteiros, não nula.
-     */
-    public static void quicksort(List<Integer> vals) {
-        quicksort(vals, 0, vals.size());
-    }
-
-    private static void quicksort(
-            List<Integer> vals, int e, int d) {
-
-        // Caso base
-        if (d-e <= 1) {
-            return;
-        }
-
-        // Subdivisão
-        int iPivo = escolherPivo(vals, e, d);
-        iPivo = particionarLomuto(vals, e, d, iPivo);
-        quicksort(vals, e, iPivo);
-        quicksort(vals, iPivo+1, d);
-    }
-
-    /**
      * Recebe uma lista em vals, com sublista delimitada por 'e' e 'd'.
      * Ao retornar, entre 'e' e 'd', todos os elementos menores
      * que indicePivo estarão na esquerda, e todos os maiores estarão
@@ -213,6 +231,7 @@ public class Ordenadores {
      * @return Índice da nova posição de pivo, que permanece apontando
      * para o mesmo elemento pivo original.
      */
+    /**
     public static int particionarHoare(
             List<Integer> vals, int e, int d, int indicePivo) {
 
@@ -228,6 +247,7 @@ public class Ordenadores {
             trocar(vals, menores, maiores);
         }
     }
+    **/
 
     /**
      * Recebe uma lista em vals, com sublista delimitada por 'e' e 'd'.
@@ -246,23 +266,30 @@ public class Ordenadores {
      * @return Índice da nova posição de pivo, que permanece apontando
      * para o mesmo elemento pivo original.
      */
-    public static int particionarLomuto(
-            List<Integer> vals, int e, int d, int iPivo) {
+    public static Object[] particionarLomuto(
+            List<Integer> vals, int e, int d, int iPivo, AnotacoesOperacoes ao) {
 
         final Integer pivo = vals.get(iPivo);
-        trocar(vals, d-1, iPivo);
+        trocar(vals, d-1, iPivo, ao);
 
         int divisor = e - 1;
+
         for (int i = e; i < d-1; i++) {
+            ao.comparacoes++;
             if (vals.get(i) < pivo) {
                 divisor++;
-                trocar(vals, divisor, i);
+                trocar(vals, divisor, i, ao);
             }
         }
-        trocar(vals, divisor+1, d-1);
-        return divisor + 1;
+        trocar(vals, divisor+1, d-1, ao);
+        //cria um objeto para retorno, podendo assim retornar o divisor e o ao
+        Object[] o = new Object[2];
+        o[0] = divisor + 1;
+        o[1] = ao;
+        return o;
     }
 
+    /**
     private static int particionar(
             List<Integer> vals, int e, int d, int indicePivo) {
 
@@ -271,6 +298,7 @@ public class Ordenadores {
         //return particionarHoare(vals, e, d, indicePivo);
         return particionarLomuto(vals, e, d, indicePivo);
     }
+     **/
 
     private static int escolherPivo(
             List<Integer> vals, int e, int d) {
@@ -279,9 +307,12 @@ public class Ordenadores {
     }
 
     // T(n) = 3
-    private static void trocar(List<Integer> vals, int i, int j) {
+    private static AnotacoesOperacoes trocar(List<Integer> vals, int i, int j, AnotacoesOperacoes ao) {
         Integer aux = vals.get(i);
         vals.set(i, vals.get(j));   // vals[i] = vals[j]
+        ao.atribuicoes++;
         vals.set(j, aux);           // vals[j] = aux
+        ao.atribuicoes++;
+        return ao;
     }
 }

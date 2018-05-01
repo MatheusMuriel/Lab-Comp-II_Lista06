@@ -3,26 +3,33 @@ package br.unifil.dc.lab2;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import br.unifil.dc.lab2.Ordenadores.AnotacoesOperacoes;
 
 class Medicao {
-    public Medicao(int extratoAmostra, long tempoMillis) {
+    public Medicao(int extratoAmostra, int operacoes) {
         this.extratoAmostra = extratoAmostra;
-        this.tempoMillis = tempoMillis;
+        this.operacoes = operacoes;
     }
 
     public int extratoAmostra;
-    public long tempoMillis;
+    public int operacoes;
+
+    public int getOperacoes(){
+        return this.operacoes;
+    }
 }
 
 public class Benchmarking {
 
-    public static List<Medicao> benchmarkIntervalo(
+        public static List<Medicao> benchmarkIntervalo(
             int inicial,
             int limite,
             int passo,
-            Consumer<List<Integer>> metodo) {
+            Function< List<Integer>, Integer > metodo) {
 
         ArrayList<Medicao> tempos = new ArrayList<>();
         for (; inicial < limite; inicial+=passo) {
@@ -34,37 +41,52 @@ public class Benchmarking {
             tempos.add(
                     new Medicao(
                             inicial,
-                            benchmarkLista(listaA,10, metodo)
+                            benchmarkLista(listaA,2, metodo)
                     )
             );
+            //System.out.println( (tempos.get(tempos.size()-1)).getOperacoes() );
         }
 
+        //System.out.println(tempos.get(15).getOperacoes());
         return tempos;
     }
 
-    public static long benchmarkLista(
+    /**
+     * Medoto criado pelo professor Ricardo e alterado pelo aluno Matheus Muriel
+     * Metodo que anota o tempo de execução de um metodo de ordenação.
+     *
+     * @param listaOriginal Lista de Inteiros contendo os numeros a serem ordenados.
+     * @param nRuns Numero de vezes que o metodo vai ser rodado, afim de tirar uma media mais precisa.
+     * @param metodo Um Consumer do tipo Lista de inteiros
+     * @return Media dos (nRuns)tempos de execução do metodo.
+     */
+    public static int benchmarkLista(
             List<Integer> listaOriginal,
             int nRuns,
-            Consumer<List<Integer>> metodo) {
+            Function< List<Integer>, Integer > metodo) {
 
-        ArrayList<Long> temposTomados = new ArrayList<>(nRuns);
+
+        ArrayList<Integer> temposTomados = new ArrayList<>(nRuns);
         for (int i = 0; i < nRuns; i++) {
             // Inicialização
             List<Integer> listaCopiada
                     = new ArrayList<>(listaOriginal);
             Cronometro cronometro = new Cronometro();
+            //AnotacoesOperacoes ao = new AnotacoesOperacoes();
 
             // Anotar tempo atual
             //final long tempoAnterior = System.currentTimeMillis();
-            cronometro.iniciar();
+            //cronometro.iniciar();
 
             // Realizar tarefa
-            metodo.accept(listaCopiada);
+            int valor = metodo.apply( listaCopiada );
+
+            System.out.println(valor);
 
             // Anotar tempo pós-tarefa
             //final long tempoPosterior = System.currentTimeMillis();
-            cronometro.parar();
-            temposTomados.add(cronometro.lerTempoEmMilissegundos());
+            //cronometro.parar();
+            temposTomados.add( valor );
             
         }
 
@@ -72,9 +94,10 @@ public class Benchmarking {
         return calcularMedia(temposTomados.subList(1,temposTomados.size()));
     }
 
-    private static long calcularMedia(List<Long> valores) {
-        long accumulador = 0;
-        for (Long v : valores) accumulador += v;
+    private static int calcularMedia(List<Integer> valores) {
+        int accumulador = 0;
+        for (Integer v : valores) accumulador += v;
+        //System.out.println(accumulador / valores.size());
         return accumulador / valores.size();
     }
 

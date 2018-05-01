@@ -10,12 +10,12 @@ public class Main {
         //Mede os tempos
 
         /**
-         **/
+         **//**
         List<Medicao> medicoesBolha = Benchmarking.benchmarkIntervalo(
                 inicio, limite, passo,
                 Ordenadores::bubblesort);
          /**
-         **/
+         **//**
         List<Medicao> medicoesSelecao = Benchmarking.benchmarkIntervalo(
                 inicio, limite, passo,
                 Ordenadores::selectionsort);
@@ -40,28 +40,28 @@ public class Main {
 
         //Gera o Grafico
         TabelaTempos tt = new TabelaTempos();
-        tt.setTitulo("Tempo para ordenação de uma lista Decrescente");
-        //tt.setTitulo("Tempo para ordenação de uma lista Crescente");
+        tt.setTitulo("Nº de ordenação de uma lista Decrescente");
+        //tt.setTitulo("Nº de ordenação de uma lista Crescente");
         tt.setEtiquetaX("Tamanho da lista");
-        tt.setEtiquetaY("Tempo (ms)");
-        //tt.setLegendas("Insertion", "Merge", "Quick");
+        tt.setEtiquetaY("Operações");
         //tt.setLegendas("Bubble", "Selection", "Insertion");
-        tt.setLegendas("Bubble", "Selection", "Insertion", "Merge", "Quick");
+        tt.setLegendas("Insertion", "Merge", "Quick");
+        //tt.setLegendas("Bubble", "Selection", "Insertion", "Merge", "Quick");
 
         //Pega os tempos
         for (int i = 0; i < medicoesInsertion.size(); i++) {
-            Medicao amostraBolha = medicoesBolha.get(i);
-            Medicao amostraSelecao = medicoesSelecao.get(i);
+            //Medicao amostraBolha = medicoesBolha.get(i);
+            //Medicao amostraSelecao = medicoesSelecao.get(i);
             Medicao amostraInsercao = medicoesInsertion.get(i);
             Medicao amostraMerge = medicoesMerge.get(i);
             Medicao amostraQuick = medicoesQuick.get(i);
 
-            tt.anotarAmostra(amostraBolha.extratoAmostra,
-                    amostraBolha.tempoMillis,
-                    amostraSelecao.tempoMillis,
-                    amostraInsercao.tempoMillis,
-                    amostraMerge.tempoMillis,
-                    amostraQuick.tempoMillis
+            tt.anotarAmostra(amostraQuick.extratoAmostra,
+                    //amostraBolha.operacoes,
+                    //amostraSelecao.operacoes,
+                    amostraInsercao.operacoes,
+                    amostraMerge.operacoes,
+                    amostraQuick.operacoes
                     );
         }
         tt.exibirGraficoXY();
