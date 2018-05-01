@@ -22,8 +22,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+            <state relative-caret-position="404">
+              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -32,13 +32,11 @@
       <file leaf-file-name="Benchmarking.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="-387">
+              <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
-                <element signature="method#benchmarkLista#0;class#Benchmarking#0" expanded="false" />
-                <element signature="e#2168#2194#0" expanded="false" />
                 <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
               </folding>
             </state>
@@ -48,17 +46,15 @@
       <file leaf-file-name="Ordenadores.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-823">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="549">
+              <caret line="214" column="7" lean-forward="true" selection-start-line="214" selection-start-column="7" selection-end-line="214" selection-end-column="7" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
-                <element signature="e#1483#1487#0" expanded="false" />
                 <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-                <element signature="method#mergesort#0;class#Ordenadores#0" expanded="false" />
-                <element signature="method#mergesort#1;class#Ordenadores#0" expanded="false" />
-                <element signature="e#3443#3474#0" expanded="false" />
+                <element signature="e#3483#3514#0" expanded="false" />
                 <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
                 <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
@@ -67,7 +63,7 @@
                 <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-                <element signature="e#8128#8176#0" expanded="false" />
+                <element signature="e#8208#8256#0" expanded="false" />
                 <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
                 <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
               </folding>
@@ -78,11 +74,9 @@
       <file leaf-file-name="Cronometro.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-              <folding>
-                <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="1241">
+              <caret line="73" column="14" lean-forward="false" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,7 +84,7 @@
       <file leaf-file-name="TabelaTempos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
+            <state relative-caret-position="629">
               <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,10 +118,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java" />
-        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java" />
         <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java" />
+        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java" />
         <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java" />
+        <option value="$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java" />
       </list>
     </option>
   </component>
@@ -160,6 +154,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,9 +186,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -320,11 +314,75 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
+            <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#3483#3514#0" expanded="false" />
+            <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionarHoare#0;class#Ordenadores#0" expanded="false" />
+            <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
+            <element signature="e#8208#8256#0" expanded="false" />
+            <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
+            <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -340,8 +398,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
-            <element signature="method#benchmarkLista#0;class#Benchmarking#0" expanded="false" />
-            <element signature="e#2168#2194#0" expanded="false" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -352,14 +408,12 @@
         <state relative-caret-position="4216">
           <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#1483#1487#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#mergesort#1;class#Ordenadores#0" expanded="false" />
-            <element signature="e#3443#3474#0" expanded="false" />
+            <element signature="e#3483#3514#0" expanded="false" />
             <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
@@ -368,7 +422,7 @@
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#8128#8176#0" expanded="false" />
+            <element signature="e#8208#8256#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
           </folding>
@@ -379,9 +433,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -407,9 +459,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -418,14 +468,12 @@
         <state relative-caret-position="391">
           <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#1483#1487#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#mergesort#1;class#Ordenadores#0" expanded="false" />
-            <element signature="e#3443#3474#0" expanded="false" />
+            <element signature="e#3483#3514#0" expanded="false" />
             <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
@@ -434,7 +482,7 @@
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#8128#8176#0" expanded="false" />
+            <element signature="e#8208#8256#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
           </folding>
@@ -448,8 +496,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
-            <element signature="method#benchmarkLista#0;class#Benchmarking#0" expanded="false" />
-            <element signature="e#2168#2194#0" expanded="false" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -468,7 +514,7 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java" />
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/TabelaTempos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state relative-caret-position="629">
           <caret line="66" column="51" lean-forward="false" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -478,27 +524,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Cronometro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-          <folding>
-            <element signature="docComment;method#zerar#0;class#Cronometro#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1241">
+          <caret line="73" column="14" lean-forward="false" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Ordenadores.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-823">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="549">
+          <caret line="214" column="7" lean-forward="true" selection-start-line="214" selection-start-column="7" selection-end-line="214" selection-end-column="7" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;method#bubblesort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#selectionsort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#1483#1487#0" expanded="false" />
             <element signature="docComment;method#insertionsort#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#mergesort#0;class#Ordenadores#0" expanded="false" />
-            <element signature="method#mergesort#1;class#Ordenadores#0" expanded="false" />
-            <element signature="e#3443#3474#0" expanded="false" />
+            <element signature="e#3483#3514#0" expanded="false" />
             <element signature="method#merge#0;class#Ordenadores#0" expanded="false" />
             <element signature="docComment;method#quicksort#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#quicksort#1;class#Ordenadores#0" expanded="false" />
@@ -507,7 +549,7 @@
             <element signature="docComment;method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionarLomuto#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#particionar#0;class#Ordenadores#0" expanded="false" />
-            <element signature="e#8128#8176#0" expanded="false" />
+            <element signature="e#8208#8256#0" expanded="false" />
             <element signature="method#escolherPivo#0;class#Ordenadores#0" expanded="false" />
             <element signature="method#trocar#0;class#Ordenadores#0" expanded="false" />
           </folding>
@@ -516,13 +558,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Benchmarking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state relative-caret-position="-387">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Medicao#0;class#Medicao#0" expanded="false" />
-            <element signature="method#benchmarkLista#0;class#Benchmarking#0" expanded="false" />
-            <element signature="e#2168#2194#0" expanded="false" />
             <element signature="docComment;method#revRange#0;class#Benchmarking#0" expanded="false" />
           </folding>
         </state>
@@ -530,8 +570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        <state relative-caret-position="404">
+          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
           <folding />
         </state>
       </provider>

@@ -26,10 +26,11 @@ public class Benchmarking {
 
         ArrayList<Medicao> tempos = new ArrayList<>();
         for (; inicial < limite; inicial+=passo) {
-            List<Integer> listaA = revRange(0,inicial) //IntStream.range(0,inicial)
+            List<Integer> listaA = revRange(0,inicial) //Lista Decrescente
+            //List<Integer> listaA = IntStream.range(0,inicial) //Lista Crescente
                     .boxed()
                     .collect(Collectors.toList());
-
+            //System.out.println(listaA.size());
             tempos.add(
                     new Medicao(
                             inicial,

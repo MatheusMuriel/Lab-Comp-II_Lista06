@@ -105,12 +105,13 @@ public class Ordenadores {
         assert vals != null : "Lista não pode ser nula.";
         AnotacoesOperacoes ao = new AnotacoesOperacoes();
 
-        mergesort(vals, 0, vals.size(), ao);
+        mergesortRec(vals, 0, vals.size(), ao);
 
+        System.out.println(vals);
         return ao;
     }
 
-    private static void mergesort(
+    private static void mergesortRec(
             List<Integer> vals, int e, int d,
             AnotacoesOperacoes ao) {
 
@@ -124,9 +125,10 @@ public class Ordenadores {
 
         // Subdivisão
         final int meio = (e + d) / 2;
-        mergesort(vals, e, meio, ao);
-        mergesort(vals, meio, d, ao);
+        mergesortRec(vals, e, meio, ao);
+        mergesortRec(vals, meio, d, ao);
         merge(vals, e, d, ao);
+        System.out.println(vals);
     }
 
     private static void merge(List<Integer> vals, int e, int d,
